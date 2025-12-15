@@ -1,0 +1,69 @@
+{
+  "datosPersonales": {
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "edad": 45,
+    "fechaNacimiento": "1979-03-15",
+    "grupoSanguineo": "O+"
+  },
+  "medicacionActual": [
+    {
+      "id": "1",
+      "nombre": "Losartán",
+      "dosis": "50 mg",
+      "frecuencia": "1 comprimido cada 24 horas",
+      "indicacion": "Hipertensión arterial",
+      "inicio": "2023-06-01"
+    },
+    {
+      "id": "2",
+      "nombre": "Atorvastatina",
+      "dosis": "20 mg",
+      "frecuencia": "1 comprimido cada 24 horas",
+      "indicacion": "Dislipidemia",
+      "inicio": "2023-08-15"
+    },
+    {
+      "id": "3",
+      "nombre": "Ácido acetilsalicílico",
+      "dosis": "100 mg",
+      "frecuencia": "1 comprimido cada 24 horas",
+      "indicacion": "Prevención cardiovascular",
+      "inicio": "2023-06-01"
+    }
+  ],
+  "enfermedades": [
+    {
+      "id": "1",
+      "diagnostico": "Hipertensión arterial",
+      "estado": "Controlada",
+      "fechaDiagnostico": "2023-06-01",
+      "observaciones": "Buen control con medicación. Presión arterial dentro de valores normales."
+    },
+    {
+      "id": "2",
+      "diagnostico": "Dislipidemia",
+      "estado": "En tratamiento",
+      "fechaDiagnostico": "2023-08-15",
+      "observaciones": "Colesterol LDL elevado. En tratamiento con estatinas. Control trimestral."
+    }
+  ],
+  "alergias": [
+    {
+      "id": "1",
+      "sustancia": "Penicilina",
+      "reaccion": "Urticaria",
+      "severidad": "Moderada"
+    }
+  ],
+  "cirugias": [
+    {
+      "id": "1",
+      "procedimiento": "Apendicectomía",
+      "fecha": "1995-08-20",
+      "observaciones": "Sin complicaciones"
+    }
+  ],
+  "ultimaActualizacion": "2024-01-15"
+}
+

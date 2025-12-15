@@ -1,0 +1,440 @@
+{
+  "estudios": [
+    {
+      "id": "1",
+      "nombre": "Ionograma",
+      "fechas": [
+        {
+          "fecha": "2024-01-15",
+          "parametros": [
+            {
+              "nombre": "Sodio",
+              "valor": 140,
+              "unidad": "mEq/L",
+              "rangoMin": 136,
+              "rangoMax": 145,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Potasio",
+              "valor": 4.2,
+              "unidad": "mEq/L",
+              "rangoMin": 3.5,
+              "rangoMax": 5.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Cloro",
+              "valor": 102,
+              "unidad": "mEq/L",
+              "rangoMin": 98,
+              "rangoMax": 107,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-10",
+          "parametros": [
+            {
+              "nombre": "Sodio",
+              "valor": 138,
+              "unidad": "mEq/L",
+              "rangoMin": 136,
+              "rangoMax": 145,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Potasio",
+              "valor": 4.0,
+              "unidad": "mEq/L",
+              "rangoMin": 3.5,
+              "rangoMax": 5.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Cloro",
+              "valor": 100,
+              "unidad": "mEq/L",
+              "rangoMin": 98,
+              "rangoMax": 107,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-05",
+          "parametros": [
+            {
+              "nombre": "Sodio",
+              "valor": 142,
+              "unidad": "mEq/L",
+              "rangoMin": 136,
+              "rangoMax": 145,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Potasio",
+              "valor": 4.5,
+              "unidad": "mEq/L",
+              "rangoMin": 3.5,
+              "rangoMax": 5.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Cloro",
+              "valor": 105,
+              "unidad": "mEq/L",
+              "rangoMin": 98,
+              "rangoMax": 107,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2023-12-28",
+          "parametros": [
+            {
+              "nombre": "Sodio",
+              "valor": 139,
+              "unidad": "mEq/L",
+              "rangoMin": 136,
+              "rangoMax": 145,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Potasio",
+              "valor": 4.1,
+              "unidad": "mEq/L",
+              "rangoMin": 3.5,
+              "rangoMax": 5.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Cloro",
+              "valor": 101,
+              "unidad": "mEq/L",
+              "rangoMin": 98,
+              "rangoMax": 107,
+              "dentroRango": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Hemograma",
+      "fechas": [
+        {
+          "fecha": "2024-01-15",
+          "parametros": [
+            {
+              "nombre": "Hemoglobina",
+              "valor": 14.5,
+              "unidad": "g/dL",
+              "rangoMin": 12.0,
+              "rangoMax": 16.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Hematocrito",
+              "valor": 42,
+              "unidad": "%",
+              "rangoMin": 36,
+              "rangoMax": 46,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Glóbulos blancos",
+              "valor": 7500,
+              "unidad": "/mm³",
+              "rangoMin": 4000,
+              "rangoMax": 11000,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Plaquetas",
+              "valor": 250000,
+              "unidad": "/mm³",
+              "rangoMin": 150000,
+              "rangoMax": 450000,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-10",
+          "parametros": [
+            {
+              "nombre": "Hemoglobina",
+              "valor": 14.2,
+              "unidad": "g/dL",
+              "rangoMin": 12.0,
+              "rangoMax": 16.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Hematocrito",
+              "valor": 41,
+              "unidad": "%",
+              "rangoMin": 36,
+              "rangoMax": 46,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Glóbulos blancos",
+              "valor": 7200,
+              "unidad": "/mm³",
+              "rangoMin": 4000,
+              "rangoMax": 11000,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Plaquetas",
+              "valor": 245000,
+              "unidad": "/mm³",
+              "rangoMin": 150000,
+              "rangoMax": 450000,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-05",
+          "parametros": [
+            {
+              "nombre": "Hemoglobina",
+              "valor": 14.8,
+              "unidad": "g/dL",
+              "rangoMin": 12.0,
+              "rangoMax": 16.0,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Hematocrito",
+              "valor": 43,
+              "unidad": "%",
+              "rangoMin": 36,
+              "rangoMax": 46,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Glóbulos blancos",
+              "valor": 7800,
+              "unidad": "/mm³",
+              "rangoMin": 4000,
+              "rangoMax": 11000,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Plaquetas",
+              "valor": 255000,
+              "unidad": "/mm³",
+              "rangoMin": 150000,
+              "rangoMax": 450000,
+              "dentroRango": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Hepatograma",
+      "fechas": [
+        {
+          "fecha": "2024-01-15",
+          "parametros": [
+            {
+              "nombre": "TGO (AST)",
+              "valor": 28,
+              "unidad": "U/L",
+              "rangoMin": 10,
+              "rangoMax": 40,
+              "dentroRango": true
+            },
+            {
+              "nombre": "TGP (ALT)",
+              "valor": 32,
+              "unidad": "U/L",
+              "rangoMin": 10,
+              "rangoMax": 40,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Bilirrubina total",
+              "valor": 1.2,
+              "unidad": "mg/dL",
+              "rangoMin": 0.3,
+              "rangoMax": 1.2,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Fosfatasa alcalina",
+              "valor": 95,
+              "unidad": "U/L",
+              "rangoMin": 40,
+              "rangoMax": 130,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-10",
+          "parametros": [
+            {
+              "nombre": "TGO (AST)",
+              "valor": 30,
+              "unidad": "U/L",
+              "rangoMin": 10,
+              "rangoMax": 40,
+              "dentroRango": true
+            },
+            {
+              "nombre": "TGP (ALT)",
+              "valor": 35,
+              "unidad": "U/L",
+              "rangoMin": 10,
+              "rangoMax": 40,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Bilirrubina total",
+              "valor": 1.1,
+              "unidad": "mg/dL",
+              "rangoMin": 0.3,
+              "rangoMax": 1.2,
+              "dentroRango": true
+            },
+            {
+              "nombre": "Fosfatasa alcalina",
+              "valor": 98,
+              "unidad": "U/L",
+              "rangoMin": 40,
+              "rangoMax": 130,
+              "dentroRango": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Perfil lipídico",
+      "fechas": [
+        {
+          "fecha": "2024-01-15",
+          "parametros": [
+            {
+              "nombre": "Colesterol total",
+              "valor": 220,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 200,
+              "dentroRango": false
+            },
+            {
+              "nombre": "HDL",
+              "valor": 55,
+              "unidad": "mg/dL",
+              "rangoMin": 40,
+              "rangoMax": 999,
+              "dentroRango": true
+            },
+            {
+              "nombre": "LDL",
+              "valor": 145,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 100,
+              "dentroRango": false
+            },
+            {
+              "nombre": "Triglicéridos",
+              "valor": 150,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 150,
+              "dentroRango": true
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-10",
+          "parametros": [
+            {
+              "nombre": "Colesterol total",
+              "valor": 225,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 200,
+              "dentroRango": false
+            },
+            {
+              "nombre": "HDL",
+              "valor": 52,
+              "unidad": "mg/dL",
+              "rangoMin": 40,
+              "rangoMax": 999,
+              "dentroRango": true
+            },
+            {
+              "nombre": "LDL",
+              "valor": 150,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 100,
+              "dentroRango": false
+            },
+            {
+              "nombre": "Triglicéridos",
+              "valor": 155,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 150,
+              "dentroRango": false
+            }
+          ]
+        },
+        {
+          "fecha": "2024-01-05",
+          "parametros": [
+            {
+              "nombre": "Colesterol total",
+              "valor": 215,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 200,
+              "dentroRango": false
+            },
+            {
+              "nombre": "HDL",
+              "valor": 58,
+              "unidad": "mg/dL",
+              "rangoMin": 40,
+              "rangoMax": 999,
+              "dentroRango": true
+            },
+            {
+              "nombre": "LDL",
+              "valor": 140,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 100,
+              "dentroRango": false
+            },
+            {
+              "nombre": "Triglicéridos",
+              "valor": 145,
+              "unidad": "mg/dL",
+              "rangoMin": 0,
+              "rangoMax": 150,
+              "dentroRango": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

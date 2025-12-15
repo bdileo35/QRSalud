@@ -1,0 +1,82 @@
+{
+  "presionArterial": [
+    {
+      "id": "1",
+      "sistolica": 120,
+      "diastolica": 80,
+      "fecha": "2024-01-15",
+      "hora": "08:30",
+      "notas": "Control matutino"
+    },
+    {
+      "id": "2",
+      "sistolica": 125,
+      "diastolica": 82,
+      "fecha": "2024-01-14",
+      "hora": "20:15",
+      "notas": "Control vespertino"
+    },
+    {
+      "id": "3",
+      "sistolica": 118,
+      "diastolica": 78,
+      "fecha": "2024-01-13",
+      "hora": "08:00",
+      "notas": "Control matutino"
+    }
+  ],
+  "pesoIMC": [
+    {
+      "id": "1",
+      "peso": 75.5,
+      "imc": 24.2,
+      "fecha": "2024-01-15",
+      "hora": "08:00",
+      "notas": "Peso estable"
+    },
+    {
+      "id": "2",
+      "peso": 75.8,
+      "imc": 24.3,
+      "fecha": "2024-01-10",
+      "hora": "08:00",
+      "notas": "Control semanal"
+    },
+    {
+      "id": "3",
+      "peso": 76.0,
+      "imc": 24.4,
+      "fecha": "2024-01-05",
+      "hora": "08:00",
+      "notas": "Control semanal"
+    }
+  ],
+  "glucemia": [
+    {
+      "id": "1",
+      "valor": 95,
+      "fecha": "2024-01-15",
+      "hora": "08:30",
+      "tipo": "Ayunas",
+      "notas": "Valor normal"
+    },
+    {
+      "id": "2",
+      "valor": 110,
+      "fecha": "2024-01-14",
+      "hora": "14:00",
+      "tipo": "Post-prandial",
+      "notas": "Valor normal"
+    }
+  ],
+  "temperatura": [
+    {
+      "id": "1",
+      "valor": 36.5,
+      "fecha": "2024-01-15",
+      "hora": "08:00",
+      "notas": "Temperatura normal"
+    }
+  ]
+}
+
