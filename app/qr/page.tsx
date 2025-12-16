@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { QRCodeSVG } from 'react-qr-code';
+import QRCode from 'react-qr-code';
 import Header from '@/components/Header';
 import Navbar from '@/components/Navbar';
 import VisorMedico from '@/components/VisorMedico';
@@ -28,11 +28,10 @@ export default function QRPage() {
           
           <div className="flex justify-center mb-6">
             <div className="bg-white p-4 rounded-lg border-2 border-gray-200">
-              <QRCodeSVG
+              <QRCode
                 value={qrValue}
                 size={256}
                 level="H"
-                includeMargin={true}
               />
             </div>
           </div>

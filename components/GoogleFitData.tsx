@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { GoogleFitData } from '@/lib/google-fit';
+import type { GoogleFitData } from '@/lib/google-fit';
 
 interface GoogleFitDataProps {
   accessToken: string;

@@ -119,22 +119,28 @@ export default function VisorMedico({ onClose }: VisorMedicoProps) {
           </button>
           <h3 className="font-semibold text-gray-800 mb-3">Estudios de Laboratorio</h3>
           <div className="space-y-3">
-            {laboratorioData.estudios.slice(0, 2).map((estudio) => (
-              <div key={estudio.id} className="bg-gray-50 p-4 rounded-lg">
-                <div className="font-medium text-gray-800 mb-2">{estudio.nombre}</div>
-                <div className="text-xs text-gray-500 mb-2">{estudio.fecha}</div>
-                <div className="space-y-2">
-                  {estudio.parametros.slice(0, 3).map((param, idx) => (
-                    <div key={idx} className="flex justify-between text-sm">
-                      <span className="text-gray-600">{param.nombre}:</span>
-                      <span className={`font-medium ${param.dentroRango ? 'text-primary-700' : 'text-danger-700'}`}>
-                        {param.valor} {param.unidad}
-                      </span>
-                    </div>
-                  ))}
+            {laboratorioData.estudios.slice(0, 2).map((estudio) => {
+              const primeraFecha = estudio.fechas && estudio.fechas.length > 0 ? estudio.fechas[0] : null;
+              const parametros = primeraFecha?.parametros || [];
+              return (
+                <div key={estudio.id} className="bg-gray-50 p-4 rounded-lg">
+                  <div className="font-medium text-gray-800 mb-2">{estudio.nombre}</div>
+                  {primeraFecha && (
+                    <div className="text-xs text-gray-500 mb-2">{primeraFecha.fecha}</div>
+                  )}
+                  <div className="space-y-2">
+                    {parametros.slice(0, 3).map((param, idx) => (
+                      <div key={idx} className="flex justify-between text-sm">
+                        <span className="text-gray-600">{param.nombre}:</span>
+                        <span className={`font-medium ${param.dentroRango ? 'text-primary-700' : 'text-danger-700'}`}>
+                          {param.valor} {param.unidad}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       );

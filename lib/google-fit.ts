@@ -97,9 +97,9 @@ export async function getFitData(accessToken: string): Promise<GoogleFitData> {
           dataTypeName: 'com.google.step_count.delta',
           dataSourceId: 'derived:com.google.step_count.delta:com.google.android.gms:estimated_steps'
         }],
-        bucketByTime: { durationMillis: 86400000 },
-        startTimeMillis: startOfDay.getTime(),
-        endTimeMillis: endOfDay.getTime(),
+        bucketByTime: { durationMillis: '86400000' },
+        startTimeMillis: String(startOfDay.getTime()),
+        endTimeMillis: String(endOfDay.getTime()),
       },
       auth: oauth2Client,
     });
@@ -202,9 +202,9 @@ export async function getFitData(accessToken: string): Promise<GoogleFitData> {
           dataTypeName: 'com.google.calories.expended',
           dataSourceId: 'derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended'
         }],
-        bucketByTime: { durationMillis: 86400000 },
-        startTimeMillis: startOfDay.getTime(),
-        endTimeMillis: endOfDay.getTime(),
+        bucketByTime: { durationMillis: '86400000' },
+        startTimeMillis: String(startOfDay.getTime()),
+        endTimeMillis: String(endOfDay.getTime()),
       },
       auth: oauth2Client,
     });
